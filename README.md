@@ -10,6 +10,8 @@ The `web` directory is a simple site built by webpack to demonstrate how a front
 This could be replaced by full-featured framework such as React if desired.
 
 ### Building
+You will need `npm` and `cargo` installed & available on your system.
+
 - First run `npm install` to install webpack et al.
 - The web frontend is built by running `npm run build`. The output of webpack is `./dist`, the contents of which will
 be embedded in your deployed function.
