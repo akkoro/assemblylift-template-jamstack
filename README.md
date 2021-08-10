@@ -15,6 +15,8 @@ This could be replaced by full-featured framework such as React if desired.
 be embedded in your deployed function.
 - The AssemblyLift services can be built as usual with `asml cast` and deployed with `asml bind`.
   - ⚠️ You will need an AWS account & credentials
+
+See the [AssemblyLift documentation](https://docs.assemblylift.akkoro.io) for more details.
   
 ### How it works
 The function `www/server` uses the `rust-embed` crate to embed the contents of the webpack `dist` directory in the compiled 
