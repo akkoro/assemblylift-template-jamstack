@@ -3,5 +3,10 @@
 [project]
 name = "assemblylift-template-jamstack"
 
+# In production you should configure an S3 bucket & DynamoDB table for terraform state
+#[terraform]
+#state_bucket_name = "my-tf-state"
+#lock_table_name = "my-tf-lock"
+
 [services]
 default = { name = "www" }
