@@ -14,5 +14,9 @@ This could be replaced by full-featured framework such as React if desired.
 - The web frontend is built by running `npm run build`. The output of webpack is `./dist`, the contents of which will
 be embedded in your deployed function.
 - The AssemblyLift services can be built as usual with `asml cast` and deployed with `asml bind`.
-  - You will need an AWS account & credentials to deploy
+  - ⚠️ You will need an AWS account & credentials
   
+### How it works
+The function `www/server` uses the `rust-embed` crate to embed the contents of the webpack `dist` directory in the compiled 
+WebAssembly binary. When invoked, the function proxies the path and attempts to match & return one of the embedded assets, 
+returning a 404 if an exact match is not found.
