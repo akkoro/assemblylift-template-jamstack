@@ -6,7 +6,7 @@ The repository provides a template for bootstrapping an AssemblyLift [Jamstack](
 AssemblyLift **v0.3.1** or greater is required.
 
 The web portion is a simple webpack site to demonstrate how a frontend can be integrated with an AssemblyLift project.
-A full-featured framework such as React is not used as to keep things simple.
+This could be replaced by full-featured framework such as React if desired.
 
 ### Building
 First run `npm install`
