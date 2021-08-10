@@ -7,7 +7,7 @@ The repository provides a template for bootstrapping an AssemblyLift [Jamstack](
 Install assemblylift with `cargo install assemblylift-cli`.
 
 The `web` directory is a simple site built by webpack to demonstrate how a frontend can be integrated with an AssemblyLift project.
-This could be replaced by full-featured framework such as React if desired.
+This could be replaced by a static site generator or a full-featured SPA framework such as React if desired.
 
 ### Building
 You will need `npm` and `cargo` installed & available on your system. Your cargo/rust toolchain must also have the 
