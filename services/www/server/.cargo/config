@@ -1,0 +1,4 @@
+# Generated with assemblylift-cli 
+
+[build]
+target = "wasm32-unknown-unknown"

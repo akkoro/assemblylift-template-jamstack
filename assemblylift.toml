@@ -1,0 +1,7 @@
+# Generated with assemblylift-cli 
+
+[project]
+name = "assemblylift-template-jamstack"
+
+[services]
+default = { name = "www" }

@@ -1,0 +1,9 @@
+.idea/
+.asml/
+.terraform/
+dist/
+build/
+node_modules/
+net/
+*.lock.hcl
+.DS_Store

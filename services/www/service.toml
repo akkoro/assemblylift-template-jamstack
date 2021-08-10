@@ -1,0 +1,10 @@
+# Generated with assemblylift-cli 
+
+[service]
+name = "www"
+
+[api.functions.server]
+name = "server"
+http = { verb = "GET", path = "/{path+}" }
+size_mb = 256
+timeout_seconds = 1
